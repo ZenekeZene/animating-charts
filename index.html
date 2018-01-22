@@ -1,0 +1,38 @@
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="animate.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+    <script src="utils.js" defer="defer" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="fake-header">
+      <h1>FAKE HEADER VERSIA</h1>
+    </div>
+    <div class="fake-landing-section">
+      <h2>FAKE SECTION VERSIA</h2>
+    </div>
+    <main class="wrapper">
+      <div class="wow item-chart bounceIn">
+        <div class="wow chart zoomInDown animated">
+          <canvas id="myChart" width="439" height="219"></canvas>
+        </div>
+        <p>Eficiencia: maximización de ingresos y optimización de gastos</p>
+      </div>
+      <div class="item-chart">
+        <div class="chart"></div>
+        <p>Eficiencia: maximización de ingresos y optimización de gastos</p>
+      </div>
+    </main>
+    <script src="wow.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      new WOW({
+        offset: 500
+      }).init();
+    </script>
+    <script src="chart.min.js" type="text/javascript"></script>
+    <script src="scripts.js" defer="defer" type="text/javascript"></script>
+  </body>
+</html>
